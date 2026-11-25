@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(vkr:*)"
+    ],
+    "deny": [
+      "Edit(vkr.docx)",
+      "Write(vkr.docx)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|MultiEdit|Write",
+        "hooks": [
+          { "type": "command", "command": "vkr hook post-edit" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+profile: pgu-povt
+year: 2027
+
+student:
+  name: Иванов Иван Иванович
+  group: ИТ23ДР62ПИ
+
+supervisor:
+  name: Петрова Анна Сергеевна
+  degree: к.т.н.
+  title: доцент
+
+topic: Разработка веб-приложения для учёта | лабораторных работ студентов
+order: { number: 100-ОП, date: 2027-03-15 }
+deadline: 2027-06-10
+task:
+  issued: 2027-03-15
+  input_data: учебный план кафедры, регламент приёма лабораторных работ
+  questions: разработать веб-приложение для учёта сдачи лабораторных работ, включающее личные кабинеты студента и преподавателя, журнал и отчёты
+  extra: расчёт себестоимости от внедрения результатов
+
+annotation:
+  ru: |
+    В работе разработано веб-приложение LabTrack для учёта сдачи лабораторных работ. Приложение
+    построено на ASP.NET Core и PostgreSQL, поддерживает роли студента и преподавателя, ведёт журнал
+    сдачи и формирует отчёты по группам. Применение системы сокращает время на сверку ведомостей
+    и исключает потерю сведений о сданных работах.
+  en: |
+    The thesis presents LabTrack, a web application for tracking laboratory work submissions. It is built
+    on ASP.NET Core and PostgreSQL, supports student and teacher roles, keeps a submission log and produces
+    group reports. The system reduces the time spent reconciling records and prevents loss of submission data.
+
+abbreviations:
+  ПО: программное обеспечение
+  СУБД: система управления базами данных
+  API: программный интерфейс приложения
+
+defaults:
+  accessed: 2027-03-20
+
+bibliography:
+  order: alphabetical
+
+content:
+  intro: chapters/intro.md
+  chapters:
+    - chapters/1-analysis.md
+  conclusion: chapters/conclusion.md
+  sources: sources.yaml
+  appendices:
+    - { file: appendix/user-guide.md, kind: user-guide }

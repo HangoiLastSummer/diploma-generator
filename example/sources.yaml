@@ -1,0 +1,20 @@
+sanpin:
+  type: standard
+  number: СанПиН 1.2.3685-21
+  title: Гигиенические нормативы и требования к обеспечению безопасности и (или) безвредности для человека факторов среды обитания
+  year: 2021
+  checked: true
+martin2017:
+  type: book
+  authors: [Martin R. C.]
+  title: "Clean Architecture: A Craftsman's Guide to Software Structure and Design"
+  city: Boston
+  publisher: Prentice Hall
+  year: 2017
+  pages: 432
+  checked: true
+aspnet:
+  type: web
+  title: Документация ASP.NET Core
+  url: https://learn.microsoft.com/ru-ru/aspnet/core/
+  checked: true
